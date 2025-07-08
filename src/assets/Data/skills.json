@@ -1,0 +1,138 @@
+[
+  {
+    "title": "Languages",
+    "icon": "fas fa-code",
+    "description": "Strong foundation in general-purpose programming and scripting languages.",
+    "skills": [
+      {
+        "name": "Java",
+        "icon": "fab fa-java",
+        "color": "#007396",
+        "desc": "Object-oriented language used for building robust applications."
+      },
+      {
+        "name": "JavaScript",
+        "icon": "fab fa-js",
+        "color": "#f7df1e",
+        "desc": "Scripting language mainly for interactive web development."
+      },
+      {
+        "name": "PHP",
+        "icon": "fab fa-php",
+        "color": "#8892BF",
+        "desc": "Server-side scripting language for web backend development."
+      },
+      {
+        "name": "Python",
+        "icon": "fab fa-python",
+        "color": "#3776AB",
+        "desc": "General-purpose programming language known for simplicity."
+      },
+      {
+        "name": "C#",
+        "icon": "fas fa-code",
+        "color": "#9b4f96",
+        "desc": "Modern object-oriented language used mainly in .NET development."
+      },
+      {
+        "name": "SQL",
+        "icon": "fas fa-database",
+        "color": "#00758f",
+        "desc": "Used for querying and managing relational databases."
+      }
+    ]
+  },
+  {
+    "title": "Web",
+    "icon": "fas fa-globe",
+    "description": "Experienced in front-end and back-end web development.",
+    "skills": [
+      {
+        "name": "HTML",
+        "icon": "fab fa-html5",
+        "color": "#e34c26",
+        "desc": "Markup language for creating web pages."
+      },
+      {
+        "name": "CSS",
+        "icon": "fab fa-css3-alt",
+        "color": "#264de4",
+        "desc": "Stylesheet language for designing website layout and look."
+      },
+      {
+        "name": "SCSS",
+        "icon": "fab fa-sass",
+        "color": "#cd6799",
+        "desc": "CSS preprocessor with variables and functions for styling."
+      },
+      {
+        "name": "React.js",
+        "icon": "fab fa-react",
+        "color": "#61DBFB",
+        "desc": "JavaScript library for building dynamic user interfaces."
+      },
+      {
+        "name": "D3.js",
+        "icon": "fas fa-chart-line",
+        "color": "#f7931e",
+        "desc": "Library for producing interactive data visualizations."
+      },
+      {
+        "name": "Node.js",
+        "icon": "fab fa-node-js",
+        "color": "#68a063",
+        "desc": "JavaScript runtime for building fast server-side apps."
+      }
+    ]
+  },
+  {
+    "title": "Databases",
+    "icon": "fas fa-database",
+    "description": "Design and query both SQL and NoSQL databases.",
+    "skills": [
+      {
+        "name": "MySQL",
+        "icon": "fas fa-database",
+        "color": "#00758f",
+        "desc": "Popular open-source relational database system."
+      },
+      {
+        "name": "MongoDB",
+        "icon": "fas fa-leaf",
+        "color": "#47A248",
+        "desc": "Document-oriented NoSQL database for high volume data."
+      }
+    ]
+  },
+  {
+    "title": "Tools",
+    "icon": "fas fa-tools",
+    "description": "Development and version control tools.",
+    "skills": [
+      {
+        "name": "Git",
+        "icon": "fab fa-git-alt",
+        "color": "#f05032",
+        "desc": "Version control system for tracking code changes."
+      },
+      {
+        "name": "XAMPP",
+        "icon": "fas fa-server",
+        "color": "#fb7a24",
+        "desc": "Local server environment for PHP and MySQL development."
+      },
+      {
+        "name": "Visual Studio",
+        "icon": "fas fa-code",
+        "color": "#5c2d91",
+        "desc": "IDE for C#, .NET and other Microsoft technologies."
+      },
+      {
+        "name": "VS Code",
+        "icon": "fas fa-code",
+        "color": "#007ACC",
+        "desc": "Lightweight code editor with debugging and extensions."
+      }
+    ]
+  }
+]
