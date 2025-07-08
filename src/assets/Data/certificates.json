@@ -1,0 +1,21 @@
+[
+  {
+    "title": "Diploma in Information Technology",
+    "issuer": "Informatics College Baguio",
+    "date": "2024",
+    "image": "/images/cert-it.png"
+  },
+  {
+    "title": "NC II - Computer Systems Servicing",
+    "issuer": "TESDA",
+    "date": "2024",
+    "image": "/images/cert-css.png"
+  },
+  {
+    "title": "Responsive Web Design",
+    "issuer": "freeCodeCamp",
+    "date": "2024",
+    "image": "/images/cert-fcc.png",
+    "link": "https://www.freecodecamp.org/certification/yourname/responsive-web-design"
+  }
+]
