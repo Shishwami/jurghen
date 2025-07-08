@@ -1,0 +1,16 @@
+[
+    {
+        "title": "Note Code",
+        "description": "A code-sharing app built with React, Node.js, and MongoDB, featuring a Monaco editor.",
+        "image": "/images/note-code.png",
+        "live": "https://coding-sharing-master.vercel.app/",
+        "repo": "https://github.com/Shishwami/coding-sharing-master"
+    },
+    {
+        "title": "Calculator App",
+        "description": "A responsive JavaScript calculator for basic arithmetic operations.",
+        "image": "/images/calculator.png",
+        "live": "https://your-live-link.com",
+        "repo": "https://github.com/yourname/calculator"
+    }
+]
