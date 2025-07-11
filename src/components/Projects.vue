@@ -12,19 +12,35 @@
                 </div>
             </div>
         </div>
+        <div class="more-projects-link">
+            <a href="https://github.com/Shishwami?tab=repositories" target="_blank" rel="noopener">
+                View More Projects on GitHub
+            </a>
+        </div>  
     </section>
 </template>
 
 <script>
-import projects from '../assets/Data/projects.json'
+import projectData from '../assets/Data/projects.json'; // keep as relative path
+
+const images = import.meta.glob('/src/assets/images/projects/*', {
+    eager: true,
+    import: 'default'
+});
 
 export default {
     name: 'Projects',
     data() {
-        return { projects }
+        return {
+            projects: projectData.map(project => ({
+                ...project,
+                image: images[`/src/assets/images/projects/${project.image}`]
+            }))
+        };
     }
-}
+};
 </script>
+
 
 <style scoped>
 .projects {
@@ -93,5 +109,25 @@ export default {
 .btn-outline:hover {
     background-color: #eab308;
     color: #1a1a1a;
+}
+
+.more-projects-link {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.more-projects-link a {
+  color: #facc15;
+  font-weight: bold;
+  text-decoration: none;
+  border: 2px solid #facc15;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.more-projects-link a:hover {
+  background-color: #facc15;
+  color: #1a1a1a;
 }
 </style>
