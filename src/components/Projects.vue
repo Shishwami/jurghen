@@ -21,7 +21,7 @@
 </template>
 
 <script>
-import projectData from '../assets/Data/projects.json'; // keep as relative path
+import projectData from '../assets/Data/projects.json';
 
 const images = import.meta.glob('/src/assets/images/projects/*', {
     eager: true,
