@@ -1,21 +1,51 @@
 [
   {
-    "title": "Diploma in Information Technology",
-    "issuer": "Informatics College Baguio",
+    "title": "Responsive Web Design",
+    "issuer": "freeCodeCamp",
     "date": "2024",
-    "image": "/images/cert-it.png"
-  },
-  {
-    "title": "NC II - Computer Systems Servicing",
-    "issuer": "TESDA",
-    "date": "2024",
-    "image": "/images/cert-css.png"
+    "image": "FCC_ResponsiveWebDesign.png",
+    "link": "https://www.freecodecamp.org/certification/yourname/responsive-web-design"
   },
   {
     "title": "Responsive Web Design",
     "issuer": "freeCodeCamp",
     "date": "2024",
-    "image": "/images/cert-fcc.png",
+    "image": "FCC_ResponsiveWebDesign.png",
     "link": "https://www.freecodecamp.org/certification/yourname/responsive-web-design"
+  },
+  {
+    "title": "JavaScript Algorithms and Data Structures",
+    "issuer": "freeCodeCamp",
+    "date": "2024",
+    "image": "FCC_JavascriptAlgorithmsAndDataStructures.png",
+    "link": "https://www.freecodecamp.org/certification/yourname/javascript-algorithms-and-data-structures"
+  },
+  {
+    "title": "Front End Development Libraries",
+    "issuer": "freeCodeCamp",
+    "date": "2024",
+    "image": "FCC_FrontEndDevelopmentLibraries.png",
+    "link": "https://www.freecodecamp.org/certification/yourname/front-end-development-libraries"
+  },
+  {
+    "title": "Data Visualization",
+    "issuer": "freeCodeCamp",
+    "date": "2024",
+    "image": "FCC_DataVisualization.png",
+    "link": "https://www.freecodecamp.org/certification/yourname/data-visualization"
+  },
+  {
+    "title": "Web Development NC III",
+    "issuer": "Tesda",
+    "date": "2024",
+    "image": "TESDA_WebDevelopment.jpg",
+    "link": "https://www.tesda.gov.ph/Career/Details/12345"
+  },
+  {
+    "title": "Computer System Servicing NC II",
+    "issuer": "Tesda",
+    "date": "2024",
+    "image": "TESDA_ComputerSystemServicing.jpg",
+    "link": "https://www.tesda.gov.ph/Career/Details/12345"
   }
 ]
