@@ -20,14 +20,25 @@
 </template>
 
 <script>
-import certificates from '../assets/Data/certificates.json'
+import certificateData from '../assets/Data/certificates.json'
+
+const images = import.meta.glob('/src/assets/images/certificates/*', {
+    eager: true,
+    import: 'default'
+});
 
 export default {
-  name: 'Certificates',
-  data() {
-    return { certificates }
-  }
-}
+    name: 'Certificates',
+    data() {
+        return {
+            certificates: certificateData.map(certificate => ({
+                ...certificate,
+                image: images[`/src/assets/images/certificates/${certificate.image}`]
+            }))
+        };
+    }
+};
+
 </script>
 
 <style scoped>
