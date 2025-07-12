@@ -1,16 +1,44 @@
 [
+    
     {
-        "title": "Note Code",
+        "title": "NoteCode",
         "description": "A code-sharing app built with React, Node.js, and MongoDB, featuring a Monaco editor.",
-        "image": "/images/note-code.png",
+        "image": "NoteCode.png",
         "live": "https://coding-sharing-master.vercel.app/",
         "repo": "https://github.com/Shishwami/coding-sharing-master"
     },
     {
-        "title": "Calculator App",
-        "description": "A responsive JavaScript calculator for basic arithmetic operations.",
-        "image": "/images/calculator.png",
-        "live": "https://your-live-link.com",
-        "repo": "https://github.com/yourname/calculator"
+        "title": "Drum Machine",
+        "description": "A responsive drum pad app built with React, featuring keyboard control and adjustable volume.",
+        "image": "DrumMachine.png",
+        "live": "https://shishwami.github.io/drum-machine/",
+        "repo": "https://github.com/Shishwami/drum-machine"
+    },
+    {
+        "title": "Random Quote Machine",
+        "description": "A React app that displays random quotes with dynamic color themes and Twitter sharing.",
+        "image": "RandomQuotesMachine.png",
+        "live": "https://shishwami.github.io/RandomQuotesMachine/",
+        "repo": "https://github.com/Shishwami/RandomQuotesMachine"
+    },
+    {
+        "title": "Javascript Calculator",
+        "description": "A simple, responsive calculator built with React, supporting basic arithmetic operations.",
+        "image": "JavascriptCalculator.png",
+        "live": "https://shishwami.github.io/javascript-calculator/",
+        "repo": "https://github.com/Shishwami/javascript-calculator"
+    },
+    {
+        "title": "Markdown Previewer",
+        "description": "A live React app that converts GitHub-flavored Markdown to HTML in real-time.",
+        "image": "MarkdownPreviewer.png",
+        "live": "https://shishwami.github.io/MarkdownPreviewer/",
+        "repo": "https://github.com/Shishwami/MarkdownPreviewer"
+    },{
+        "title": "Heat Map",
+        "description": "A D3.js-based data visualization showing global temperature variations over time using a responsive heatmap.",
+        "image": "Heatmap.png",
+        "live": "https://shishwami.github.io/FCC-Heat-Map/",
+        "repo": "https://github.com/Shishwami/FCC-Heat-Map"
     }
 ]
