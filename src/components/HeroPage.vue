@@ -11,7 +11,7 @@
                     foundation in <span class="large">web technologies</span>. -->
 
             <p>
-                <span class="medium colored">Hi, I'm Eugene Peralta.</span><br>
+                <span class="larger colored">Hi, I'm Eugene Peralta.</span><br>
                 <span class="large colored">Entry-Level Full-Stack<br>Web & Software Developer</span>
             </p>
             <p>
@@ -83,6 +83,11 @@ section {
 .large {
     font-size: 2rem;
     font-weight: bold;
+}
+
+.larger {
+    font-size: 3rem;
+    font-weight: bolder;
 }
 
 .colored {
