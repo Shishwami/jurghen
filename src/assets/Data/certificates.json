@@ -39,13 +39,15 @@
     "issuer": "Tesda",
     "date": "2024",
     "image": "TESDA_WebDevelopment.jpg",
-    "link": "https://www.tesda.gov.ph/Career/Details/12345"
+    "link": "https://imgur.com/bMOJFui",
+    "slug": "web-development-nc-iii"
   },
   {
     "title": "Computer System Servicing NC II",
     "issuer": "Tesda",
-    "date": "2024",
+    "date": "2023",
     "image": "TESDA_ComputerSystemServicing.jpg",
-    "link": "https://www.tesda.gov.ph/Career/Details/12345"
+    "link": "https://imgur.com/DQKjcWp",
+    "slug": "computer-system-servicing-nc-ii"
   }
 ]
