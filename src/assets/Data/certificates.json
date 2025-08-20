@@ -39,7 +39,6 @@
     "issuer": "Tesda",
     "date": "2024",
     "image": "TESDA_WebDevelopment.jpg",
-    "link": "https://imgur.com/bMOJFui",
     "slug": "web-development-nc-iii"
   },
   {
@@ -47,7 +46,6 @@
     "issuer": "Tesda",
     "date": "2023",
     "image": "TESDA_ComputerSystemServicing.jpg",
-    "link": "https://imgur.com/DQKjcWp",
     "slug": "computer-system-servicing-nc-ii"
   }
 ]
