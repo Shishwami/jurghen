@@ -2,37 +2,37 @@
   {
     "title": "Responsive Web Design",
     "issuer": "freeCodeCamp",
-    "date": "2024",
+    "date": "2025",
     "image": "FCC_ResponsiveWebDesign.png",
-    "link": "https://www.freecodecamp.org/certification/yourname/responsive-web-design"
-  },
-  {
-    "title": "Responsive Web Design",
-    "issuer": "freeCodeCamp",
-    "date": "2024",
-    "image": "FCC_ResponsiveWebDesign.png",
-    "link": "https://www.freecodecamp.org/certification/yourname/responsive-web-design"
+    "link": "https://www.freecodecamp.org/certification/fcc68912675-653a-4f47-8d05-d657e49e5818/responsive-web-design"
   },
   {
     "title": "JavaScript Algorithms and Data Structures",
     "issuer": "freeCodeCamp",
-    "date": "2024",
+    "date": "2025",
     "image": "FCC_JavascriptAlgorithmsAndDataStructures.png",
-    "link": "https://www.freecodecamp.org/certification/yourname/javascript-algorithms-and-data-structures"
+    "link": "https://www.freecodecamp.org/certification/fcc68912675-653a-4f47-8d05-d657e49e5818/javascript-algorithms-and-data-structures-v8"
+  },
+  {
+    "title": "Data Visualization",
+    "issuer": "freeCodeCamp",
+    "date": "2025",
+    "image": "FCC_DataVisualization.png",
+    "link": "https://www.freecodecamp.org/certification/fcc68912675-653a-4f47-8d05-d657e49e5818/data-visualization"
   },
   {
     "title": "Front End Development Libraries",
     "issuer": "freeCodeCamp",
     "date": "2024",
     "image": "FCC_FrontEndDevelopmentLibraries.png",
-    "link": "https://www.freecodecamp.org/certification/yourname/front-end-development-libraries"
+    "link": "https://www.freecodecamp.org/certification/fcc68912675-653a-4f47-8d05-d657e49e5818/front-end-development-libraries"
   },
   {
-    "title": "Data Visualization",
+    "title": "Foundational C# with Microsoft Certification",
     "issuer": "freeCodeCamp",
     "date": "2024",
-    "image": "FCC_DataVisualization.png",
-    "link": "https://www.freecodecamp.org/certification/yourname/data-visualization"
+    "image": "FCC_FoundationalCHash.png",
+    "link": "https://www.freecodecamp.org/certification/fcc68912675-653a-4f47-8d05-d657e49e5818/foundational-c-sharp-with-microsoft"
   },
   {
     "title": "Web Development NC III",
