@@ -12,7 +12,7 @@
 
             <p>
                 <span class="large">Hi, I'm Eugene Peralta.</span><br>
-                <span class="larger">Entry-Level Full-Stack<br>Web & Software Developer</span>
+                <span class="larger gradient-text">Entry-Level Full-Stack<br>Web & Software Developer</span>
             </p>
             <p class="description-text">
                 I enjoy solving problems, building clean user interfaces, and learning new technologies.
@@ -102,6 +102,15 @@ section {
     font-weight: 900;
 }
 
+.gradient-text {
+    font-weight: 900;
+    background: linear-gradient(90deg, var(--primary), var(--accent));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
+
 .colored {
     color: var(--primary);
 }
@@ -155,7 +164,7 @@ section {
 
 .buttons span {
     display: flex;
-}   
+}
 
 .icon-btn {
     background-color: var(--primary);
