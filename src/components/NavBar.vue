@@ -1,7 +1,7 @@
 <template>
     <nav>
         <ul>
-            <li><a href="#home">Jurghen</a></li>
+            <li><a href="#home">Jurgehn</a></li>
         </ul>
         <ul>
             <li><a href="#home">Home</a></li>
