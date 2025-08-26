@@ -36,7 +36,7 @@
         "repo": "https://github.com/Shishwami/MarkdownPreviewer"
     },{
         "title": "Heat Map",
-        "description": "A D3.js-based data visualization showing global temperature variations over time using a responsive heatmap.",
+        "description": "A D3.js-based data visualization showing global temperature variations over time using a heatmap.",
         "image": "Heatmap.png",
         "live": "https://shishwami.github.io/FCC-Heat-Map/",
         "repo": "https://github.com/Shishwami/FCC-Heat-Map"
