@@ -41,18 +41,17 @@ export default {
 };
 </script>
 
-
 <style scoped>
 .projects {
     padding: 4rem 2rem;
     text-align: center;
-    background-color: #0f172a;
+    background-color: var(--bg-dark, #0f172a);
 }
 
 .projects h2 {
     font-size: 2rem;
     margin-bottom: 2rem;
-    color: #facc15;
+    color: var(--highlight, #facc15);
 }
 
 .project-grid {
@@ -64,10 +63,10 @@ export default {
 }
 
 .project-card {
-    background-color: #1e293b;
+    background-color: var(--bg-card, #1e293b);
     border-radius: 12px;
     padding: 1.5rem;
-    color: white;
+    color: var(--text-light, white);
     transition: transform 0.3s ease;
 }
 
@@ -95,22 +94,23 @@ export default {
     padding: 0.5rem 1rem;
     border-radius: 6px;
     font-weight: 600;
+    transition: background-color 0.3s ease;
 }
 
 .btn {
-    background-color: #facc15;
-    color: #1a1a1a;
+    background-color: var(--highlight, #facc15);
+    color: var(--text-dark, #1a1a1a);
 }
 
 .btn-outline {
-    border: 2px solid #facc15;
-    color: #facc15;
+    border: 2px solid var(--highlight, #facc15);
+    color: var(--highlight, #facc15);
 }
 
 .btn:hover,
 .btn-outline:hover {
-    background-color: #eab308;
-    color: #1a1a1a;
+    background-color: var(--highlight-hover, #eab308);
+    color: var(--text-dark, #1a1a1a);
 }
 
 .more-projects-link {
@@ -119,17 +119,43 @@ export default {
 }
 
 .more-projects-link a {
-    color: #facc15;
+    color: var(--highlight, #facc15);
     font-weight: bold;
     text-decoration: none;
-    border: 2px solid #facc15;
+    border: 2px solid var(--highlight, #facc15);
     padding: 0.5rem 1rem;
     border-radius: 6px;
     transition: background-color 0.3s, color 0.3s;
 }
 
 .more-projects-link a:hover {
-    background-color: #facc15;
-    color: #1a1a1a;
+    background-color: var(--highlight, #facc15);
+    color: var(--text-dark, #1a1a1a);
+}
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+    .project-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
+    }
+}
+
+@media (max-width: 640px) {
+    .project-grid {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .projects h2 {
+        font-size: 1.75rem;
+    }
+
+    .btn,
+    .btn-outline,
+    .more-projects-link a {
+        width: 100%;
+        text-align: center;
+    }
 }
 </style>
