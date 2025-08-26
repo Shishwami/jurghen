@@ -33,16 +33,19 @@ export default {
 
 <style scoped>
 .skills {
-  padding: 3rem 2rem;
-  max-width: 800px;
-  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
+  padding: 4rem 2rem;
+  background-color: var(--bg-dark);
+  color: var(--text-light);
 }
 
 .skills h2 {
-  font-size: 2.5rem;
+  font-size: clamp(2rem, 5vw, 2.5rem);
   margin-bottom: 2.5rem;
-  color: #facc15;
+  color: var(--primary);
 }
 
 .skill-category {
@@ -50,8 +53,8 @@ export default {
 }
 
 .skill-category h3 {
-  font-size: 1.6rem;
-  color: #e2e8f0;
+  font-size: clamp(1.2rem, 3vw, 1.6rem);
+  color: var(--accent);
   margin-bottom: 0.5rem;
   display: flex;
   align-items: center;
@@ -61,7 +64,7 @@ export default {
 
 .description {
   font-size: 1rem;
-  color: #94a3b8;
+  color: var(--text-light);
   margin-bottom: 1.5rem;
 }
 
@@ -69,44 +72,56 @@ export default {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 1rem;
+  gap: 1.5rem;
+  max-width: 900px;
+  width: 100%;
 }
 
 .skill-card {
-  background-color: #1e293b;
-  color: #f1f5f9;
+  flex: 1 1 250px;
+  max-width: 280px;
+  background-color: var(--bg-card);
+  color: var(--text-light);
   border-radius: 1rem;
-  padding: 1rem;
-  width: 200px;
+  padding: 1.5rem 1rem;
   text-align: center;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .skill-card i {
-  padding: 5px;
-  background-color: #f1f5f9;
-  border-radius: 5px;
-}
-
-.skill-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
-}
-
-.skill-card i {
-  font-size: 2rem;
+  font-size: 3rem;
   margin-bottom: 0.5rem;
+  padding: 10px;
+  border-radius: 8px;
 }
 
 .skill-card h4 {
   margin: 0.3rem 0;
   font-size: 1.1rem;
-  color: #facc15;
+  color: var(--text-light);
 }
 
 .skill-card p {
-  font-size: 0.85rem;
-  color: #cbd5e1;
+  font-size: 0.9rem;
+  color: var(--text-light);
+}
+
+.skill-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.6);
+}
+
+/* Responsive fix */
+@media (max-width: 1024px) {
+  .skill-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  .skill-list {
+    grid-template-columns: 1fr;
+  }
 }
 </style>
