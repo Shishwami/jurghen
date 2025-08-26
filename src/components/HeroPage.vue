@@ -1,5 +1,5 @@
 <template>
-    <section>
+    <section id="home">
 
         <div class="description">
 
@@ -26,13 +26,17 @@
                 <p class="connect-desc">Let's connect and build something great together!</p>
 
                 <div class="buttons">
-                    <a href="#contact" class="contact-btn">Contact Me</a>
-                    <a href="#" target="_blank" class="icon-btn">
-                        <i class="fab fa-github"></i>
-                    </a>
-                    <a href="#" target="_blank" class="icon-btn">
-                        <i class="fab fa-linkedin-in"></i>
-                    </a>
+                    <span>
+                        <a href="#contact" class="contact-btn">Contact Me</a>
+                    </span>
+                    <span>
+                        <a href="#" target="_blank" class="icon-btn">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="#" target="_blank" class="icon-btn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </span>
                 </div>
             </div>
         </div>
@@ -149,8 +153,13 @@ section {
     flex-wrap: wrap;
 }
 
+.buttons span {
+    display: flex;
+}   
+
 .icon-btn {
     background-color: var(--primary);
+    margin: 0 0.5rem;
     color: var(--text-dark);
     border-radius: 50%;
     width: 45px;
