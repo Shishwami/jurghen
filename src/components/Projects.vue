@@ -16,7 +16,7 @@
             <a href="https://github.com/Shishwami?tab=repositories" target="_blank" rel="noopener">
                 View More Projects on GitHub
             </a>
-        </div>  
+        </div>
     </section>
 </template>
 
@@ -57,8 +57,10 @@ export default {
 
 .project-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .project-card {
@@ -112,22 +114,22 @@ export default {
 }
 
 .more-projects-link {
-  margin-top: 2rem;
-  text-align: center;
+    margin-top: 2rem;
+    text-align: center;
 }
 
 .more-projects-link a {
-  color: #facc15;
-  font-weight: bold;
-  text-decoration: none;
-  border: 2px solid #facc15;
-  padding: 0.5rem 1rem;
-  border-radius: 6px;
-  transition: background-color 0.3s, color 0.3s;
+    color: #facc15;
+    font-weight: bold;
+    text-decoration: none;
+    border: 2px solid #facc15;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    transition: background-color 0.3s, color 0.3s;
 }
 
 .more-projects-link a:hover {
-  background-color: #facc15;
-  color: #1a1a1a;
+    background-color: #facc15;
+    color: #1a1a1a;
 }
 </style>
