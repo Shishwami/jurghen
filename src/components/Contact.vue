@@ -29,8 +29,9 @@
     <div class="contact-info">
       <p><strong>Email:</strong> <a href="mailto:jurgehn12@gmail.com">jurgehn12@gmail.com</a></p>
       <p class="socials">
-        <a href="https://github.com/yourusername" target="_blank" class="icon-btn"><i class="fab fa-github"></i></a>
-        <a href="https://linkedin.com/in/yourusername" target="_blank" class="icon-btn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://github.com/Shishwami" target="_blank" class="icon-btn"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/eugene-peralta-b43b242a7/" target="_blank" class="icon-btn"><i
+            class="fab fa-linkedin-in"></i></a>
       </p>
     </div>
   </section>
@@ -43,8 +44,8 @@ const formData = ref({
   name: "",
   email: "",
   message: "",
-  extra_field: "", 
-  js_check: ""    
+  extra_field: "",
+  js_check: ""
 });
 
 const status = ref("");
@@ -98,20 +99,21 @@ async function handleSubmit() {
 <style scoped>
 .contact {
   padding: 4rem 2rem;
-  background-color: #1e293b;
-  color: #e2e8f0;
+  background-color: var(--bg-card);
+  color: var(--text-light);
   text-align: center;
+  margin: 0;
 }
 
 .contact h2 {
   font-size: 2rem;
-  color: #facc15;
-  margin-bottom: 1rem;
+  color: var(--highlight);
+  margin: 0 0 1rem 0;
 }
 
 .contact p {
   max-width: 600px;
-  margin: 0 auto 2rem;
+  margin: 0 auto 1.5rem auto;
   line-height: 1.6;
 }
 
@@ -119,12 +121,13 @@ async function handleSubmit() {
   display: grid;
   gap: 1rem;
   max-width: 500px;
-  margin: 0 auto 2rem;
+  margin: 0 auto 2rem auto;
 }
 
 .contact-form label {
   text-align: left;
   font-weight: 500;
+  margin-bottom: 0.25rem;
 }
 
 .contact-form input,
@@ -134,16 +137,17 @@ async function handleSubmit() {
   border: none;
   border-radius: 6px;
   font-size: 1rem;
+  box-sizing: border-box;
 }
 
 .contact-form input:focus,
 .contact-form textarea:focus {
-  outline: 2px solid #facc15;
+  outline: 2px solid var(--highlight);
 }
 
 .btn {
-  background-color: #facc15;
-  color: #1a1a1a;
+  background-color: var(--highlight);
+  color: var(--text-dark);
   padding: 0.75rem 1.5rem;
   border: none;
   border-radius: 6px;
@@ -151,18 +155,21 @@ async function handleSubmit() {
   font-weight: bold;
   cursor: pointer;
   transition: background 0.3s ease;
+  margin: 0 auto;
+  display: inline-block;
 }
 
 .btn:hover {
-  background-color: #eab308;
+  background-color: var(--highlight-hover);
 }
 
 .contact-info {
   font-size: 1rem;
+  margin: 0;
 }
 
 .contact-info a {
-  color: #facc15;
+  color: var(--highlight);
   text-decoration: none;
 }
 
@@ -174,8 +181,8 @@ async function handleSubmit() {
 }
 
 .icon-btn {
-  background-color: #0f172a;
-  color: #facc15;
+  background-color: var(--bg-dark);
+  color: var(--highlight);
   border-radius: 50%;
   width: 45px;
   height: 45px;
@@ -188,7 +195,13 @@ async function handleSubmit() {
 }
 
 .icon-btn:hover {
-  background-color: #334155;
+  background-color: var(--bg-card);
   transform: scale(1.1);
 }
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
 </style>
