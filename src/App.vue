@@ -6,6 +6,8 @@ import Projects from './components/Projects.vue';
 import Certificates from './components/Certificates.vue';
 import Contact from './components/Contact.vue';
 import Footer from './components/Footer.vue';
+
+import { SpeedInsights } from "@vercel/speed-insights/next"
 </script>
 
 <template>
@@ -17,6 +19,7 @@ import Footer from './components/Footer.vue';
     <Certificates />
     <Contact />
     <Footer />
+    <SpeedInsights />
   </div>
 </template>
 <style>
