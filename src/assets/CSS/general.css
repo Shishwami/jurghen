@@ -5,9 +5,9 @@
   font-family: 'Inter', sans-serif;
 }
 
-* {
-  /* outline: 1px solid red; */
-}
+/* * {
+  outline: 1px solid red;
+} */
 
 :root {
   --bg-main: #f9f8f3;
