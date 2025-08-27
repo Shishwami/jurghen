@@ -7,7 +7,7 @@ import Certificates from './components/Certificates.vue';
 import Contact from './components/Contact.vue';
 import Footer from './components/Footer.vue';
 
-import { SpeedInsights } from "@vercel/speed-insights/next"
+import { SpeedInsights } from "@vercel/speed-insights/vue"
 </script>
 
 <template>
