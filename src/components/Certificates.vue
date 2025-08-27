@@ -42,11 +42,6 @@ import { watch, ref, computed } from "vue";
 import { useRoute, useRouter } from "vue-router";
 import certificateData from '../assets/Data/certificates.json';
 
-const images = import.meta.glob('/src/assets/images/certificates/*', {
-  eager: true,
-  import: 'default'
-});
-
 export default {
   name: 'Certificates',
   setup() {
@@ -55,7 +50,7 @@ export default {
 
     const certificates = certificateData.map(c => ({
       ...c,
-      image: images[`/src/assets/images/certificates/${c.image}`]
+      image: `/Images/Certificates/${c.image}`
     }));
 
     const selectedCert = ref(null);
