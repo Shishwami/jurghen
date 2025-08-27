@@ -34,7 +34,7 @@ export default {
         return {
             projects: projectData.map(project => ({
                 ...project,
-                image: images[`/src/assets/images/projects/${project.image}`]
+                image: images[`../assets/images/projects/${project.image}`]
             }))
         };
     }
