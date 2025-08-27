@@ -23,18 +23,13 @@
 <script>
 import projectData from '../assets/Data/projects.json';
 
-const images = import.meta.glob('/src/assets/images/projects/*', {
-    eager: true,
-    import: 'default'
-});
-
 export default {
     name: 'Projects',
     data() {
         return {
             projects: projectData.map(project => ({
                 ...project,
-                image: images[`../assets/images/projects/${project.image}`]
+                image:`/Images/Projects/${project.image}` 
             }))
         };
     }
